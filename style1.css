@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=IM+Fell+English+SC&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100vw;
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+.heading{
+    color: white;
+    font-size: 8vh;
+    display: block;
+    padding-left: 150px;
+    letter-spacing: 5px;
+    font-family: 'IM Fell English SC', serif;
+}
+.ulink{
+    text-decoration: none;
+    margin-left: 1000px;
+}
+.userbtn{
+    color: white;
+    background: #f8b923;
+    font-size: 2vh;
+    width: 12vw;
+    height: 4vh;
+    text-align: center;
+    border: none;
+    font-family: 'Arvo', serif;
+    font-weight: bold;
+}
+.userbtn:hover{
+    background: #f49b35;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.container{
+    height: 90vh;
+    width: 100vw;
+    background-image: linear-gradient(#f48f39,white,#fdc50c7d);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    align-items: center;
+    height: 25vh;
+    animation: imgAnime 3s ease-in-out 1s infinite alternate-reverse;
+}
+@keyframes imgAnime 
+{
+    from 
+    {
+        height: 25vh;
+        /* transform: rotate(0deg); */
+    }
+    to 
+    {
+        height: 70vh;
+        /* transform: rotate(360deg); */
+    }
+}
